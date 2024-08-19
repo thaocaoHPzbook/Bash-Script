@@ -28,16 +28,16 @@ $$ - ID của script hiện tại.`
 
 VD :
 
-#!/bin/bash
+`#!/bin/bash
 arg=$1
-echo arguments1 = $arg
+echo arguments1 = $arg`
 
 Run file : ./myscript.sh 123 với 123 là giá trị argument truyền vào
 
 màn hình sẽ in ra kết quả như sau :
 
-nambd@nambd-HP:~/Desktop$ bash ./myscipt.sh  123
-arguments1 = 123
+`nambd@nambd-HP:~/Desktop$ bash ./myscipt.sh  123
+arguments1 = 123`
 
 # 3) Input trong file bash
 
@@ -51,24 +51,24 @@ read value
 
 VD :
 
-nambd@nambd-HP:~/Desktop$ bash ./myscipt.sh 
+`nambd@nambd-HP:~/Desktop$ bash ./myscipt.sh 
 Enter your name :
 Hihi
-Your name is Hihi
+Your name is Hihi`
 
 Một số option
 
 -p : thêm dấu nhắc nhập lệnh -s : ẩn đi giá trị bạn nhập
 
-#!/bin/bash
+`#!/bin/bash
 
 read -p 'Username: ' uservar
 read -sp 'Password: ' passvar 
-echo Username : $uservar Password : $passvar 
+echo Username : $uservar Password : $passvar `
 
 Khi bạn muốn nhập nhiều gía trị :
 
-read var1 var2 var3 
+`read var1 var2 var3 `
 
 # 4) If , If else Statements
 
@@ -76,27 +76,27 @@ Cậu lệnh điều kiện
 
 Cú pháp
 
-if [ <some test> ]
+`if [ <some test> ]
 then
 <commands>
 else
 <other commands>
-fi
+fi`
 
 VD :
 
-#!/bin/bash
+`#!/bin/bash
 
 if [ $# -eq 1 ] // kiêm tra số lượng các argument 
 then
 nl $1
 else
 //some action 
-fi
+fi`
 
 Hoặc câu lệnh elif
 
-if [ <some test> ]
+`if [ <some test> ]
 then
 <commands>
 elif [ <some test> ] 
@@ -104,11 +104,11 @@ then
 <different commands>
 else
 <other commands>
-fi
+fi`
 
 VD :
 
-#!/bin/bash
+`#!/bin/bash
 
 if [ $1 -ge 18 ]
 then
@@ -118,7 +118,7 @@ then
 echo You may go to the party but be back before midnight.
 else
 echo You may not go to the party.
-fi
+fi`
 
 Boolean Operations gồm có
 
@@ -127,27 +127,27 @@ Boolean Operations gồm có
 
 VD
 
-if [ -r $1 ] && [ -s $1 ]
+`if [ -r $1 ] && [ -s $1 ]
 then
 echo This file is useful.
-fi
+fi`
 
 5) Case Statements
 
 Cú pháp :
 
-case <variable> in
+`case <variable> in
 <pattern 1>)
 <commands>
 ;;
 <pattern 2>)
 <other commands>
 ;;
-esac
+esac`
 
 VD :
 
-#!/bin/bash
+`#!/bin/bash
 case $1 in
 start)
 echo starting
@@ -160,4 +160,4 @@ echo restarting
 ;;
 *)
 echo don\'t know
-;;# Bash-Script
+;;# Bash-Script`
