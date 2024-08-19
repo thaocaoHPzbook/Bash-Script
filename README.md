@@ -1,7 +1,7 @@
 # 1) Cấu trúc file bash
 Dòng đâu tiên và bắt buộc với một file bash với đuôi mở rộng là .sh ( trên Linux ) hoặc .bat trên Window ) là câu lệnh này
 
-`#!/bin/bash  
+`#!/bin/bash   <p>
 // tiếp theo là những câu lệnh thực thi`
 
 VD : myscript.sh
