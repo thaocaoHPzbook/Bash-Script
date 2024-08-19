@@ -1,19 +1,16 @@
-1) Cấu trúc file bash
+# 1) Cấu trúc file bash
 Dòng đâu tiên và bắt buộc với một file bash với đuôi mở rộng là .sh ( trên Linux ) hoặc .bat trên Window ) là câu lệnh này
-# #!/bin/bash
-// tiếp theo là những câu lệnh thực thi  
+`#!/bin/bash
+// tiếp theo là những câu lệnh thực thi`
 
 VD : myscript.sh
-
-# #!/bin/bash
+#!/bin/bash
 echo Hello 
 // in ra màn hình terminal chứ Hello 
 
 Để run file này đơn giản trên màn hình terminal chỉ cần chạy ./myscript.sh
-2) Các biến trong file bash
-
+# 2) Các biến trong file bash
 Có 2 kiểu biến trong file bash
-
     Setting a value for a variable.
     Reading the value for a variable.
 
@@ -40,7 +37,7 @@ màn hình sẽ in ra kết quả như sau :
 nambd@nambd-HP:~/Desktop$ bash ./myscipt.sh  123
 arguments1 = 123
 
-3) Input trong file bash
+# 3) Input trong file bash
 
 Như ví dụ bên trên mình đang truyển giá trị theo kiểu Command line arguments
 
@@ -71,7 +68,7 @@ Khi bạn muốn nhập nhiều gía trị :
 
 read var1 var2 var3 
 
-4) If , If else Statements
+# 4) If , If else Statements
 
 Cậu lệnh điều kiện
 
