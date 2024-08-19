@@ -62,10 +62,9 @@ Một số option
 -p : thêm dấu nhắc nhập lệnh -s : ẩn đi giá trị bạn nhập
 
 `#!/bin/bash
-
 read -p 'Username: ' uservar
 read -sp 'Password: ' passvar 
-echo Username : $uservar Password : $passvar `
+echo Username : $uservar Password : $passvar`
 
 Khi bạn muốn nhập nhiều gía trị :
 
