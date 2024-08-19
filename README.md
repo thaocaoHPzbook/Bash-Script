@@ -2,13 +2,13 @@
 Dòng đâu tiên và bắt buộc với một file bash với đuôi mở rộng là .sh ( trên Linux ) hoặc .bat trên Window ) là câu lệnh này
 
 `#!/bin/bash   
-  // tiếp theo là những câu lệnh thực thi`
+// tiếp theo là những câu lệnh thực thi`
 
 VD : myscript.sh
 
-`#!/bin/bash`  
-`echo Hello`
-`// in ra màn hình terminal chứ Hello`
+`#!/bin/bash   
+echo Hello  
+// in ra màn hình terminal chứ Hello`
 
 Để run file này đơn giản trên màn hình terminal chỉ cần chạy **./myscript.sh**
 
