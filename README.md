@@ -26,13 +26,13 @@ Một số biến của hệ thống như :
     $# - Số lượng các  arguments chúng ta truyền vào cho file the Bash script.  
     $@ - Tất cả các đối số cung cấp cho file  Bash script.  
     $? - Trạng thái của câu lệnh thực hiện gần nhất ( 0 -> true , 1 -> false )   
-    $$ - ID của script hiện tại.`
+    $$ - ID của script hiện tại.
 
 VD :
 
     #!/bin/bash
     arg=$1
-    echo arguments1 = $arg`
+    echo arguments1 = $arg
 
 Run file : **./myscript.sh 123** với 123 là giá trị argument truyền vào
 
@@ -56,7 +56,7 @@ VD :
     nambd@nambd-HP:~/Desktop$ bash ./myscipt.sh 
     Enter your name :
     Hihi 
-    Your name is Hihi`
+    Your name is Hihi
 
 Một số option
 
@@ -65,7 +65,7 @@ Một số option
     #!/bin/bash
     read -p 'Username: ' uservar
     read -sp 'Password: ' passvar 
-    echo Username : $uservar Password : $passvar`
+    echo Username : $uservar Password : $passvar
 
 Khi bạn muốn nhập nhiều giá trị :
 
