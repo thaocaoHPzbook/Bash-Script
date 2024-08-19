@@ -14,8 +14,8 @@ VD : myscript.sh
 
 # 2) Các biến trong file bash
 Có 2 kiểu biến trong file bash
-  -Setting a value for a variable.
-  -Reading the value for a variable.
+- Setting a value for a variable.
+- Reading the value for a variable.
 
 Đơn giản khi chúng ta cần tham chiếu và để đọc giá trị của biên đó thì ta dùng Reading the value với cú pháp thêm dấu $ trước tên biến Khi chúng ta muốn gán giá trị cho biến thì ta dùng Setting a value chỉ cần bỏ dấu $ đằng trước đi là được
 
