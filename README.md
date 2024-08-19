@@ -147,6 +147,7 @@ Cú pháp :
     esac
 
 VD :
+    
     #!/bin/bash
     case $1 in
     start)
